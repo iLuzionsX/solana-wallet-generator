@@ -4,7 +4,7 @@ const solanaWeb3 =  require("@solana/web3.js");
 const Solana = new solanaWeb3.Connection("https://ssc-dao.genesysgo.net/");
 
 // IF YOU ARE A NOOB JUST EDIT THIS PART
-const wordsStart = ["art", "1312", "look"]; // words to look for at the beginning of the address
+const wordsStart = ["seb", "1312", "look"]; // words to look for at the beginning of the address
 const wordsInclude = ["looksrare"]; // words to look for in the complete address
 const stopAfter = 100; // setting this to 0 deactivates the limit
 const outputDirectory = "./output"; // output directory WITHOUT "/" at the end
